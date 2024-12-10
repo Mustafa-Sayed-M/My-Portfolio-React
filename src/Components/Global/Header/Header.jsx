@@ -23,7 +23,7 @@ const linksData = [
 function Header() {
     return (
         <header className='top-0 left-0 z-50 relative backdrop-blur-sm'>
-            <div className='container min-h-[60px] flex items-center justify-between py-3'>
+            <div className='container min-h-[60px] flex max-sm:flex-col items-center justify-between gap-3 py-3'>
                 {/* Social Profiles */}
                 <SocialProfiles />
                 {/* Nav */}
