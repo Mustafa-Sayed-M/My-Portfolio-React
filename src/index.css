@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables */
+:root {
+  --primary-color: #673ab7;
+}
+
+/* Global */
+html,
+body {
+  font-family: "Urbanist", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: "";
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
